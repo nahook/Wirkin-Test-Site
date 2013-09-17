@@ -14,20 +14,23 @@
 		<script src="js/jquery.min.js"></script>
 		<script src="js/config.js"></script>
 		<script src="js/skel.min.js"></script>
-		<script src="http//code.jquery.com/jquery-1.7.1.min.js"></script>
-		<script src="js/jqinstapics.js"></script>
+		<!--<script src="js/jquery.instastream.js"></script>
+		<script src="js/jquery-1.8.2.min.js"></script>
 		<script>
-			$("#instagram").jqinstapics({
-  			"user_id": "543313880",
-  			"access_token": "543313880.674061d.66a3514d0a0a4f27a5b8142e316738af",
-  			"count": 5
+			jQuery(document).ready(function ($) {
+				$("#theplaceyouwant").instastream({
+				instaToken: '543313880',
+				instaUser: '543313880.674061d.66a3514d0a0a4f27a5b8142e316738af',
+				instaResults: 3,
+				instaMenu: 'yes'
+				});						
 			});
-		</script>
+		</script>-->
 		<noscript>
 			<link rel="stylesheet" href="css/skel-noscript.css" />
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-desktop.css" />
-			<link rel="stylesheet" href="css/jqinstagram.css" />
+			<link rel="stylesheet" href="css/jquery.instastream.css" />
 		</noscript>
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
@@ -70,13 +73,8 @@
 					<header>
 						<h2>Starting Up</h2>
 						<span>Founded in 2013 by Nick and Kara, Wirkin is the best thing to happen to networking since the business card</span>
-					<ul id="instagram"></ul>
 					</header>
-					
-					<div class="container">
-						<div class="row">
-							
-						</div>
+					<iframe src="http://embedagram.com/e/widget/543313880/?" scrolling="no" frameborder="0" style="border:none; width:404px; height:144px; overflow:hidden;" allowTransparency="true"></iframe>
 					</div>
 				</article>
 			</div>
